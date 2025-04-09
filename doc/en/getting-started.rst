@@ -9,37 +9,17 @@ Get Started
 Install ``pytest``
 ----------------------------------------
 
-``pytest`` requires: Python 3.8+ or PyPy3.
+* requires
+    * Python 3.8+ / PyPy3
 
-1. Run the following command in your command line:
-
-.. code-block:: bash
-
-    pip install -U pytest
-
-2. Check that you installed the correct version:
-
-.. code-block:: bash
-
-    $ pytest --version
-    pytest 8.3.5
-
-.. _`simpletest`:
+1. `pip install -U pytest`
+2. `pytest --version`
 
 Create your first test
 ----------------------------------------------------------
 
+* TODO:
 Create a new file called ``test_sample.py``, containing a function, and a test:
-
-.. code-block:: python
-
-    # content of test_sample.py
-    def func(x):
-        return x + 1
-
-
-    def test_answer():
-        assert func(3) == 5
 
 The test
 
